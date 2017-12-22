@@ -5,4 +5,4 @@
 其中包括 地图定位 轨迹等等功能
 
 
-![image](https://github.com/pk110/vue/blob/master/src/assets/myindex.png)
+![image](https://github.com/pk110/weC/blob/master/src/assets/myindex.png)
