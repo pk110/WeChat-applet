@@ -13,12 +13,14 @@
 
   <!--身体-->
   <view class="my_body">
-    <view class="my_body_list">
-      <view class="my_body_list_left">
-        <image src="../../images/love.png"></image>
-        <text>我的收藏</text>
-      </view>
-      <image src="../../images/right.png" class="my_body_list_right"></image>
+    <view>
+      <navigator url="/pages/loves/loves" class="my_body_list">
+        <view class="my_body_list_left">
+          <image src="../../images/love.png"></image>
+          <text>我的收藏</text>
+        </view>
+        <image src="../../images/right.png" class="my_body_list_right"></image>
+      </navigator>
     </view>
     <view>
       <navigator url="/pages/map/map" open-type="switchTab" class="my_body_list">
@@ -29,12 +31,14 @@
         <image src="../../images/right.png" class="my_body_list_right"></image>
       </navigator>
     </view>
-    <view class="my_body_list">
-      <view class="my_body_list_left">
-        <image src="../../images/friends.png"></image>
-        <text>我的好友</text>
-      </view>
-      <image src="../../images/right.png" class="my_body_list_right"></image>
+    <view>
+      <navigator url="/pages/friends/friends" class="my_body_list">
+        <view class="my_body_list_left">
+          <image src="../../images/friends.png"></image>
+          <text>我的好友</text>
+        </view>
+        <image src="../../images/right.png" class="my_body_list_right"></image>
+      </navigator>
     </view>
     <view>
       <navigator url="/pages/aboutUs/aboutUs" class="my_body_list">

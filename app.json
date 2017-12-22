@@ -7,7 +7,9 @@
     "pages/findDetail/findDetail",
     "pages/indexDetail/indexDetail",
     "pages/mapSearch/mapSearch",
-    "pages/aboutUs/aboutUs"
+    "pages/aboutUs/aboutUs",
+    "pages/friends/friends",
+    "pages/loves/loves"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",

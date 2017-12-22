@@ -33,11 +33,11 @@
 .map_container_img {
   width: 80rpx;
   height: 80rpx;
-  /*animation-name: breath;
-  animation-duration: 3s;
+  animation-name: breath;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-direction: alternate;*/
+  animation-direction: alternate;
 }
 
 .map_container_biking {
@@ -94,57 +94,129 @@
 
 /*动画*/
 
-/*@keyframes breath {
-  0% {
-    box-shadow: 0 0 10px #000;
+@keyframes breath {
+ 0% {
+     transform:scale(1,1);
+    -ms-transform:scale(1,1); 	/* IE 9 */
+    -moz-transform:scale(1,1); 	/* Firefox */
+    -webkit-transform:scale(1,1); /* Safari 和 Chrome */
+    -o-transform:scale(1,1); 
+    border-radius:10px;
+    box-shadow: 0 0 0px 	#000000;
   }
 
   20% {
-    box-shadow: 0 0 20px #000;
+           transform:scale(0.95,0.95);
+    -ms-transform:scale(0.95,0.95); 	/* IE 9 */
+    -moz-transform:scale(0.95,0.95); 	/* Firefox */
+    -webkit-transform:scale(0.95,0.95); /* Safari 和 Chrome */
+    -o-transform:scale(0.95,0.95); 
+      border-radius:9.5px;
+    box-shadow: 0 0 1.5px 	#000000;
   }
 
   40% {
-    box-shadow: 0 0 30px #000;
+           transform:scale(0.9,0.9);
+    -ms-transform:scale(0.9,0.9); 	/* IE 9 */
+    -moz-transform:scale(0.9,0.9); 	/* Firefox */
+    -webkit-transform:scale(0.9,0.9); /* Safari 和 Chrome */
+    -o-transform:scale(0.9,0.9); 
+      border-radius:9px;
+    box-shadow: 0 0 3px 	#000000;
   }
 
   60% {
-    box-shadow: 0 0 40px #000;
+           transform:scale(0.85,0.85);
+    -ms-transform:scale(0.85,0.85); 	/* IE 9 */
+    -moz-transform:scale(0.85,0.85); 	/* Firefox */
+    -webkit-transform:scale(0.85,0.85); /* Safari 和 Chrome */
+    -o-transform:scale(0.85,0.85); 
+      border-radius:8.5px;
+    box-shadow: 0 0 4.5px 	#000000;
   }
 
   80% {
-    box-shadow: 0 0 50px #000;
+           transform:scale(0.8,0.8);
+    -ms-transform:scale(0.8,0.8); 	/* IE 9 */
+    -moz-transform:scale(0.8,0.8); 	/* Firefox */
+    -webkit-transform:scale(0.8,0.8); /* Safari 和 Chrome */
+    -o-transform:scale(0.8,0.8);
+      border-radius:8px;
+    box-shadow: 0 0 6px 	#000000;
   }
 
   100% {
-    box-shadow: 0 0 60px #000;
+           transform:scale(0.75,0.75);
+    -ms-transform:scale(0.75,0.75); 	/* IE 9 */
+    -moz-transform:scale(0.75,0.75); 	/* Firefox */
+    -webkit-transform:scale(0.75,0.75); /* Safari 和 Chrome */
+    -o-transform:scale(0.75,0.75);
+      border-radius:7.5px;
+    box-shadow: 0 0 7.5px 	#000000;
   }
 }
 
 @-webkit-keyframes breath {
-  0% {
-    box-shadow: 0 0 10px #000;
+ 0% {
+     transform:scale(1,1);
+    -ms-transform:scale(1,1); 	/* IE 9 */
+    -moz-transform:scale(1,1); 	/* Firefox */
+    -webkit-transform:scale(1,1); /* Safari 和 Chrome */
+    -o-transform:scale(1,1); 
+    border-radius:10px;
+    box-shadow: 0 0 0px 	#000000;
   }
 
   20% {
-    box-shadow: 0 0 20px #000;
+           transform:scale(0.95,0.95);
+    -ms-transform:scale(0.95,0.95); 	/* IE 9 */
+    -moz-transform:scale(0.95,0.95); 	/* Firefox */
+    -webkit-transform:scale(0.95,0.95); /* Safari 和 Chrome */
+    -o-transform:scale(0.95,0.95); 
+      border-radius:9.5px;
+    box-shadow: 0 0 1.5px 	#000000;
   }
 
   40% {
-    box-shadow: 0 0 30px #000;
+           transform:scale(0.9,0.9);
+    -ms-transform:scale(0.9,0.9); 	/* IE 9 */
+    -moz-transform:scale(0.9,0.9); 	/* Firefox */
+    -webkit-transform:scale(0.9,0.9); /* Safari 和 Chrome */
+    -o-transform:scale(0.9,0.9); 
+      border-radius:9px;
+    box-shadow: 0 0 3px 	#000000;
   }
 
   60% {
-    box-shadow: 0 0 40px #000;
+           transform:scale(0.85,0.85);
+    -ms-transform:scale(0.85,0.85); 	/* IE 9 */
+    -moz-transform:scale(0.85,0.85); 	/* Firefox */
+    -webkit-transform:scale(0.85,0.85); /* Safari 和 Chrome */
+    -o-transform:scale(0.85,0.85); 
+      border-radius:8.5px;
+    box-shadow: 0 0 4.5px 	#000000;
   }
 
   80% {
-    box-shadow: 0 0 50px #000;
+           transform:scale(0.8,0.8);
+    -ms-transform:scale(0.8,0.8); 	/* IE 9 */
+    -moz-transform:scale(0.8,0.8); 	/* Firefox */
+    -webkit-transform:scale(0.8,0.8); /* Safari 和 Chrome */
+    -o-transform:scale(0.8,0.8);
+      border-radius:8px;
+    box-shadow: 0 0 6px 	#000000;
   }
 
   100% {
-    box-shadow: 0 0 60px #000;
+           transform:scale(0.75,0.75);
+    -ms-transform:scale(0.75,0.75); 	/* IE 9 */
+    -moz-transform:scale(0.75,0.75); 	/* Firefox */
+    -webkit-transform:scale(0.75,0.75); /* Safari 和 Chrome */
+    -o-transform:scale(0.75,0.75);
+      border-radius:7.5px;
+    box-shadow: 0 0 7.5px 	#000000;
   }
-}*/
+}
 
 @keyframes foolishOut {
   0% {
