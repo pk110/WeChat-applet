@@ -1,0 +1,23 @@
+.indexDetail{
+    box-sizing: border-box;
+    padding: 15px;
+}
+.indexDetail_img{
+    width: 100%;
+    height: 200px;
+}
+.indexDetail_title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+.indexDetail_time{
+    float: right;
+    line-height: 20px;
+}
+.indexDetail_content{
+    margin-top: 10px;
+    line-height: 15px;
+    font-size: 12px;
+    text-indent: 10px;
+}

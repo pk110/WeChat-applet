@@ -1,0 +1,39 @@
+<view class="aboutUs">
+    <view class="aboutUs_head">
+        <view>————</view>
+        <view>团队成员</view>
+        <view>————</view>
+    </view>
+    <view class="aboutUs_people">
+        <view class="aboutUs_people_list">
+            <image src="../../images/headone.jpg" data-src="../../images/headone.jpg" bindtap="previewImageone"></image>
+            <view>背着吉他的蝙蝠侠</view>
+            <view>身体和灵魂总有一个在路上</view>
+        </view>
+        <view class="aboutUs_people_line"></view>
+        <view class="aboutUs_people_list">
+            <image src="../../images/headtwo.jpg" data-src="../../images/headtwo.jpg" bindtap="previewImagetwo"></image>
+            <view>向大大</view>
+            <view>你的东方明珠没有顶</view>
+        </view>
+    </view>
+    <view class="aboutUs_head" style="margin:30px 0;">
+        <view>————</view>
+        <view>加入我们</view>
+        <view>————</view>
+    </view>
+    <view class="aboutUs_foot">
+        <view class="aboutUs_foot_list">
+            <view>QQ群</view>
+            <view>341541058</view>
+        </view>
+        <view class="aboutUs_foot_list" style="border:0;">
+            <view>微信公众号</view>
+            <view>武汉骑行</view>
+        </view>
+        <view class="aboutUs_foot_list">
+            <view>个人主页</view>
+            <view>https://pk110.github.io</view>
+        </view>
+    </view>
+</view>

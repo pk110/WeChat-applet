@@ -1,0 +1,49 @@
+<view class="my">
+
+  <!--头部-->
+  <view class="my_head">
+    <view class="my_head_box">
+      <image src="{{imgSrc}}" class="my_head_box_image"></image>
+      <view class="my_head_box_person">
+        <text>{{nickName}}</text>
+        <image src="{{gender}}" class="my_head_box_gender"></image>
+      </view>
+    </view>
+  </view>
+
+  <!--身体-->
+  <view class="my_body">
+    <view class="my_body_list">
+      <view class="my_body_list_left">
+        <image src="../../images/love.png"></image>
+        <text>我的收藏</text>
+      </view>
+      <image src="../../images/right.png" class="my_body_list_right"></image>
+    </view>
+    <view>
+      <navigator url="/pages/map/map" open-type="switchTab" class="my_body_list">
+        <view class="my_body_list_left">
+          <image src="../../images/biking.png"></image>
+          <text>我的骑行</text>
+        </view>
+        <image src="../../images/right.png" class="my_body_list_right"></image>
+      </navigator>
+    </view>
+    <view class="my_body_list">
+      <view class="my_body_list_left">
+        <image src="../../images/friends.png"></image>
+        <text>我的好友</text>
+      </view>
+      <image src="../../images/right.png" class="my_body_list_right"></image>
+    </view>
+    <view>
+      <navigator url="/pages/aboutUs/aboutUs" class="my_body_list">
+        <view class="my_body_list_left">
+          <image src="../../images/set.png"></image>
+          <text>关于我们</text>
+        </view>
+        <image src="../../images/right.png" class="my_body_list_right"></image>
+      </navigator>
+    </view>
+  </view>
+</view>

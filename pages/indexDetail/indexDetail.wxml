@@ -1,0 +1,6 @@
+<view class="indexDetail">
+    <image src="{{img}}" class="indexDetail_img"></image>
+    <view class="indexDetail_title">{{title}}</view>
+    <view class="indexDetail_time">{{time}}</view>
+    <view class="indexDetail_content">{{content}}</view>
+</view>

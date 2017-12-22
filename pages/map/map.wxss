@@ -1,0 +1,185 @@
+.map_container {
+  width: 100%;
+  height: 900rpx;
+}
+
+.map_container_input {
+  position: fixed;
+  top: 0;
+  border: 1px solid #dcdcdc;
+  width: 90%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 5px 15px;
+  padding: 5px 15px;
+  background: #fff;
+  color: gray;
+}
+
+.map_container_input input {
+  width: 100%;
+  height: 100%;
+}
+
+.map_container_bike {
+  position: fixed;
+  top: 750rpx;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map_container_img {
+  width: 80rpx;
+  height: 80rpx;
+  /*animation-name: breath;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;*/
+}
+
+.map_container_biking {
+  padding: 5px 10px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 14px;
+  border-radius: 20rpx;
+}
+
+.map_container_pause {
+  position: fixed;
+  top: 650rpx;
+  margin-left: 20px;
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 35rpx;
+  font-size: 14px;
+  text-align: center;
+  line-height: 70rpx;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+  animation: foolishOut 1s ease;
+}
+
+.map_container_myaddress {
+  width: 70rpx;
+  height: 70rpx;
+  position: fixed;
+  top: 550rpx;
+  margin-left: 19px;
+  opacity: 0.8;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.place_info {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.place_info text {
+  display: block;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+/*动画*/
+
+/*@keyframes breath {
+  0% {
+    box-shadow: 0 0 10px #000;
+  }
+
+  20% {
+    box-shadow: 0 0 20px #000;
+  }
+
+  40% {
+    box-shadow: 0 0 30px #000;
+  }
+
+  60% {
+    box-shadow: 0 0 40px #000;
+  }
+
+  80% {
+    box-shadow: 0 0 50px #000;
+  }
+
+  100% {
+    box-shadow: 0 0 60px #000;
+  }
+}
+
+@-webkit-keyframes breath {
+  0% {
+    box-shadow: 0 0 10px #000;
+  }
+
+  20% {
+    box-shadow: 0 0 20px #000;
+  }
+
+  40% {
+    box-shadow: 0 0 30px #000;
+  }
+
+  60% {
+    box-shadow: 0 0 40px #000;
+  }
+
+  80% {
+    box-shadow: 0 0 50px #000;
+  }
+
+  100% {
+    box-shadow: 0 0 60px #000;
+  }
+}*/
+
+@keyframes foolishOut {
+  0% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1) rotate(360deg);
+  }
+
+  20% {
+    opacity: 1;
+    transform-origin: 0% 0%;
+    transform: scale(0.5, 0.5) rotate(0deg);
+  }
+
+  40% {
+    opacity: 1;
+    transform-origin: 100% 0%;
+    transform: scale(0.5, 0.5) rotate(0deg);
+  }
+
+  60% {
+    opacity: 1;
+    transform-origin: 0%;
+    transform: scale(0.5, 0.5) rotate(0deg);
+  }
+
+  80% {
+    opacity: 1;
+    transform-origin: 0% 100%;
+    transform: scale(0.5, 0.5) rotate(0deg);
+  }
+
+  100% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(0, 0) rotate(0deg);
+  }
+}

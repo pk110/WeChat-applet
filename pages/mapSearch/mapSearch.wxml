@@ -1,0 +1,4 @@
+<view class="mapSearch">
+  <input type="text" placeholder="请输入您想搜索的位置" confirm-type="search" bindinput="bindKeyInput" placeholder-style="color:#fff;" bindconfirm="searchAddress" auto-focus />
+  <text>{{sugData}}</text>
+</view>

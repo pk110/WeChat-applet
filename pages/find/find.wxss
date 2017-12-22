@@ -1,0 +1,45 @@
+.find_list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 15px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.find_list_left{
+    width: 80px;
+    height: 100px;
+}
+.find_list_mid{
+    padding-top: 5px;
+    padding-left: 10px;
+    flex: 2;
+}
+.find_list_title{
+    font-weight: bold;
+    line-height: 30px;
+}
+.find_list_tag{
+    line-height: 30px;
+}
+.find_list_time{
+    line-height: 30px;
+}
+.find_list_rating{
+    float: right;
+    color:#ff9900;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+.find_list_rating_sorce{
+    font-size: 23px;
+    font-weight: bold;
+}
+.navigator-hover {
+    color:blue;
+}
+.other-navigator-hover {
+    color:red;
+}

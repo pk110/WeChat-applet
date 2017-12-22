@@ -1,0 +1,114 @@
+/**index.wxss**/
+page{
+  background-color: #f3f3f3;
+}
+/*轮播图*/
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+swiper {
+  height:180px;
+  margin-bottom: 20px;
+}
+/*今日天气*/
+.weather{
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.weather_title{
+  padding-left: 5px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.weather_text{
+  font-size: 14px;
+}
+/*基础训练栏目*/
+.workout{
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.workout_title{
+  padding-left: 5px;
+  font-weight: bold;
+}
+.workout_list{
+  margin-top: 20px;
+  overflow-x: auto;
+  width: 100%;
+  display: flex;
+  white-space: nowrap;
+}
+.workout_list .workout_list_navigator:nth-child(n+2){
+  margin-left: 10px;
+}
+.workout_list_box{
+  display: flex;
+  flex-direction: column;
+}
+.workout_list_box image{
+  width: 150px;
+  height: 85px;
+  margin-bottom: 10px;
+}
+.workout_list_box text{
+  text-align: center;
+  color: gray;
+  font-size: 13px;
+}
+/*今日推荐运动*/
+.recommend{
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+.recommend_title{
+  padding-left: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.recommend image{
+  width: 100%;
+  height: 200px;
+}
+
+/*文章推送*/
+.pages{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: #fff;
+}
+.pages_title{
+  display: block;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.pages_gzh{
+  color: gray;
+  padding: 5px;
+  font-size: 13px;
+  display: inline-block;
+  text-align: center;
+}
+.pages image{
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 100px;
+}
+.pages_foot{
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color:#000000;
+}

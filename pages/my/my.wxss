@@ -1,0 +1,71 @@
+/*头部*/
+.my_head{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    background: url(http://img2.imgtn.bdimg.com/it/u=1500622277,3472508581&fm=27&gp=0.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.my_head_box_image{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    border: 2px solid #f3f3f3;
+}
+.my_head_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my_head_box_person{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.my_head_box text{
+    font-size: 13px;
+    color: #95ddee;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: #f3f3f3;
+    background: rgba(0,0,0,0.5)
+}
+.my_head_box_gender{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+/*身体*/
+.my_body_list{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.my_body_list_left{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.my_body_list_left image{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.my_body_list_left text{
+    font-size: 13px;
+}
+.my_body_list_right{
+    width: 20px;
+    height: 20px;
+}

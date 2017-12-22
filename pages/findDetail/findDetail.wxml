@@ -1,0 +1,25 @@
+<view class="findDetail">
+    <view class="findDetail_head">
+        <view class="findDetail_head_top">
+            <text>{{detail.title}}</text>
+            <text>({{detail.year}})</text>
+        </view>
+        <view class="findDetail_head_body">
+            <image src="{{detail.images.large}}" class="findDetail_head_body_left"></image>
+            <view class="findDetail_head_body_right">
+                <view>导演：{{detail.directors[0].name}}</view>
+                <view>
+                    类型： <text wx:for="{{detail.genres}}">{{item}} </text>
+                </view>
+                <view>豆瓣地址：<text class="findDetail_head_body_right_url">{{detail.share_url}}</text></view>
+                <view>制片国家/地区：<text wx:for="{{detail.countries}}">{{item}} </text></view>
+                <view>集数：{{detail.episodes_count}}</view>
+                <view>又名：<text wx:for="{{detail.aka}}">{{item}} </text></view>
+            </view>
+        </view>
+        <view class="findDetail_head_foot">
+            <view class="findDetail_head_foot_title">{{detail.title}}的剧情简介：</view>
+            <view class="findDetail_head_foot_content">{{detail.summary}}</view>
+        </view> 
+    </view>
+</view>

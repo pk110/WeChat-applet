@@ -1,0 +1,18 @@
+<view class="map_container">
+  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap" polyline="{{polyline}}">
+    <cover-view class="map_container_input" bindtap="playInput">
+      搜索周围
+    </cover-view>
+    <cover-image src="../../images/myaddress.png" class="map_container_myaddress" bindtap="myaddress" />
+    <cover-view class="{{addClass}}" style="display:{{showPause}};" bindtap="pauseBike">暂停</cover-view>
+    <cover-view class="map_container_bike" >
+      <cover-image src="../../images/bike.png" class="map_container_img" animation="{{animationData}}" bindtap="biking" />
+      <cover-view class="map_container_biking">{{bike}}</cover-view>
+    </cover-view>
+  </map>
+</view>
+<view class="place_info">
+  <text>{{placeData.title}}</text>
+  <text>{{placeData.address}}</text>
+  <text>{{placeData.telephone}}</text>
+</view>

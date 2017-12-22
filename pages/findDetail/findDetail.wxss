@@ -1,0 +1,35 @@
+.findDetail_head{
+    box-sizing: border-box;
+    padding: 15px;
+}
+.findDetail_head_top{
+    padding: 10px 0;
+    font-weight: bold;
+}
+.findDetail_head_body{
+    border-bottom: 1px solid #dcdcdc;
+}
+.findDetail_head_body_left{
+    width: 100%;
+    height: 320px;
+}
+.findDetail_head_body_right{
+    font-size: 13px;
+}
+.findDetail_head_body_right view{
+    line-height: 20px;
+}
+.findDetail_head_body_right_url{
+    color: #007722;
+}
+.findDetail_head_foot{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.findDetail_head_foot_title{
+    color: #007722;
+    padding-bottom: 10px;
+}
+.findDetail_head_foot_content{
+    line-height: 15px;
+}

@@ -1,0 +1,62 @@
+
+<!--index.wxml-->
+<import src="../../templates/footer.wxml" />
+<view class="container">
+
+  <!--轮播图-->
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgslist}}">
+      <navigator url="/pages/indexDetail/indexDetail?ctime={{item.ctime}}&title={{item.title}}&picUrl={{item.picUrl}}">
+        <swiper-item>
+          <image src="{{item.picUrl}}" class="slide-image" width="355" height="150" />
+        </swiper-item>
+      </navigator>
+    </block>
+  </swiper>
+
+  <!--温馨提示-->
+  <view class="weather">
+    <view class="weather_title">温馨提示</view>
+    <text class="weather_text">小程序功能正在不断优化更新!</text>
+  </view>
+
+  <!--今日天气-->
+  <view class="weather">
+    <view class="weather_title">今日天气</view>
+    <text class="weather_text">{{weatherData}}</text>
+  </view>
+
+  <!--基础训练栏目-->
+  <view class="workout">
+    <view class="workout_title">基础训练</view>
+    <view class="workout_list">
+      <navigator wx:for="{{workoutList}}" url="/pages/indexDetail/indexDetail?content={{item.content}}&title={{item.title}}&picUrl={{item.picUrl}}" class="workout_list_navigator">
+        <view class="workout_list_box">
+          <image src="{{item.picUrl}}"></image>
+          <text>{{item.title}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+
+  <!--今日推荐运动-->
+  <view class="recommend">
+    <view class="recommend_title">今日推荐运动</view>
+    <image src="../../images/bike.gif"></image>
+  </view>
+
+  <!--文章推送-->
+  <view class="pages">
+    <text class="pages_title">文章推送</text>
+    <text class="pages_gzh">微信扫描长按下方二维码关注武汉骑行官方公众号</text>
+    <image src="../../images/gzh.jpg" bindlongtap="scanningCode"></image>
+    <text class="pages_foot">由 背着吉他的蝙蝠侠 提供 | 技术支持</text>
+    <view style="clear:both;"></view>
+  </view>
+
+  <!--底部导航-->
+
+  <!--<template is="footer" data="{{...eg}}"></template>-->
+
+  <!--<template is="contacter" data="{{...eg}}"></template>-->
+</view>

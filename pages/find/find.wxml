@@ -1,0 +1,16 @@
+<view class="find">
+  <view wx:for="{{movies}}" wx:for-item="item">
+    <navigator url="/pages/findDetail/findDetail?id={{item.id}}" hover-class="navigator-hover"  class="find_list">
+      <image src="{{item.images.medium}}" class="find_list_left" lazy-load="true"></image>
+      <view class="find_list_mid">
+        <view class="find_list_title">{{item.title}}</view>
+        <text class="find_list_tag" wx:for="{{item.genres}}" wx:for-item="items">{{items}} </text>
+        <view class="find_list_time">出版时间：{{item.year}}</view>
+      </view>
+      <view class="find_list_rating">
+        <text class="find_list_rating_sorce">{{item.rating.average}}</text>
+        <text>分</text>
+      </view>
+    </navigator>
+  </view>
+</view>

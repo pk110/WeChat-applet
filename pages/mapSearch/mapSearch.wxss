@@ -1,0 +1,24 @@
+.mapSearch{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 15px;
+    background: rgba(0,0,0,0.2);
+}
+.mapSearch input{
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #fff;
+}
+.mapSearch text{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    color: #fff;
+}

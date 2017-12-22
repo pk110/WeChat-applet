@@ -1,0 +1,26 @@
+<template name="footer">
+  <view class="footer">
+    <view>
+        <image src="../../images/index.png"></image>
+        <text style="color:#5f61c1;">主页</text>
+    </view>
+    <view>
+        <image src="../../images/map.png"></image>
+        <text>附近</text>
+    </view>
+    <view>
+        <image src="../../images/finda.png"></image>
+        <text>发现</text>
+    </view>
+    <view>
+        <image src="../../images/my.png"></image>
+        <text>我的</text>
+    </view>
+  </view>
+</template>
+
+
+<template name="contacter">
+  <contact-button type="default-dark" size="20" session-from="weapp">
+  </contact-button>
+</template>
