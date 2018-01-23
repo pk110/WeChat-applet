@@ -1,41 +1,28 @@
 .find_list{
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     box-sizing: border-box;
     padding: 15px;
     border-bottom: 1px solid #dcdcdc;
 }
-.find_list_left{
-    width: 80px;
-    height: 100px;
+.find_list_top{
+    font-size: 15px;
 }
 .find_list_mid{
-    padding-top: 5px;
-    padding-left: 10px;
-    flex: 2;
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
 }
-.find_list_title{
-    font-weight: bold;
-    line-height: 30px;
+.find_list_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: gray;
 }
-.find_list_tag{
-    line-height: 30px;
-}
-.find_list_time{
-    line-height: 30px;
-}
-.find_list_rating{
-    float: right;
-    color:#ff9900;
-    font-size: 13px;
-    box-sizing: border-box;
-    padding: 5px 0;
-}
-.find_list_rating_sorce{
-    font-size: 23px;
-    font-weight: bold;
+.find_list_bottom_one{
+    padding-right: 10px;
 }
 .navigator-hover {
     color:blue;

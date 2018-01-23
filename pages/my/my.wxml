@@ -41,6 +41,24 @@
       </navigator>
     </view>
     <view>
+      <navigator url="/pages/game/game" class="my_body_list">
+        <view class="my_body_list_left">
+          <image src="../../images/game.png"></image>
+          <text>趣味问答</text>
+        </view>
+        <image src="../../images/right.png" class="my_body_list_right"></image>
+      </navigator>
+    </view> 
+    <view>
+      <view class="my_body_list">
+        <view class="my_body_list_left">
+          <image src="../../images/contact.png"></image>
+          <button  open-type="contact" plain="true" size="5" session-from="{{nickName}}">客服会话</button>
+        </view>
+        <image src="../../images/right.png" class="my_body_list_right"></image>
+      </view>
+    </view> 
+    <view>
       <navigator url="/pages/aboutUs/aboutUs" class="my_body_list">
         <view class="my_body_list_left">
           <image src="../../images/set.png"></image>

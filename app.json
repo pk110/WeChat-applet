@@ -9,7 +9,8 @@
     "pages/mapSearch/mapSearch",
     "pages/aboutUs/aboutUs",
     "pages/friends/friends",
-    "pages/loves/loves"
+    "pages/loves/loves",
+    "pages/game/game"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",

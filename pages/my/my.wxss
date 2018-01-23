@@ -62,6 +62,16 @@
     height: 20px;
     margin-right: 10px;
 }
+.my_body_list_left button{
+    border: 0;
+    font-size:13px;
+    padding:0;
+    margin:0;
+    line-height: 1;
+    width:100%;
+    text-align:left;
+
+}
 .my_body_list_left text{
     font-size: 13px;
 }

@@ -17,7 +17,7 @@
   <!--温馨提示-->
   <view class="weather">
     <view class="weather_title">温馨提示</view>
-    <text class="weather_text">小程序功能正在不断优化更新!</text>
+    <text class="weather_text">小程序功能正在不断优化更新中!</text>
   </view>
 
   <!--今日天气-->
