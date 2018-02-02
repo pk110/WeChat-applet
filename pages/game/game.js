@@ -24,7 +24,12 @@ Page({
       anwser:'',
       id:''
   },
-  onLoad:function(options){
+  onLoad: function (options) {
+      wx.showToast({
+        title: '正在加载...',
+        icon: 'success',
+        duration: 2000
+      })
       this.requestquestion();
   },
   anwser:function(event){

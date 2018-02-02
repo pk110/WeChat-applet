@@ -4,7 +4,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(../../images/background.jpg) no-repeat;
+    background-image: url("https://github.com/pk110/WeChat-applet/raw/master/images/background.jpg"); 
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }

@@ -13,7 +13,7 @@
     "pages/game/game"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#5f61c1",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
