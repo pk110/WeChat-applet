@@ -22,11 +22,13 @@ Page({
       question:'',
       types:'wenda',
       anwser:'',
-      id:''
+      id:'',
+      goodquestion:'',
+      myquestion:''
   },
   onLoad: function (options) {
       wx.showToast({
-        title: '正在加载...',
+        title: '正在加载背景图片...',
         icon: 'success',
         duration: 2000
       })
@@ -34,7 +36,10 @@ Page({
   },
   anwser:function(event){
     console.log(event.detail.value);
-    if(event.detail.value == this.data.anwser){
+    var myquestion = this.data.anwser.trim(); 
+    console.log(this.data.anwser.trim())
+    // console.log(this.data.anwser.substr(0, this.data.anwser.length-1))
+    if (event.detail.value == myquestion){
         wx.showToast({
             title: '回答正确洛！',
             icon: 'success',
@@ -45,6 +50,9 @@ Page({
             title: '回答错误哦！',
             icon: 'success',
             duration: 2000
+        });              
+        this.setData({
+          goodquestion: this.data.anwser
         })
     }
   },
@@ -86,7 +94,9 @@ Page({
                 that.setData({
                     question:res.data.newslist[0].quest,
                     anwser:res.data.newslist[0].result,
-                    id:res.data.newslist[0].id
+                    id: res.data.newslist[0].id,
+                    goodquestion: '',
+                    myquestion:''
                 })
               }
           }

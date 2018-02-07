@@ -1,6 +1,6 @@
 <view class="game">
     <view class="game_answer">游戏模式：<picker class="game_right" bindchange="bindPickerChange" value="{{index}}" range="{{gametype}}">{{gametype[index]}}</picker></view>
     <view class="game_question">问：{{question}}</view>
-    <view class="game_anwser">答：<input placeholder-style="color:red;font-size:16px;" placeholder="输入回答问题" confirm-type="done" bindconfirm="anwser" /></view>
+    <view class="game_anwser">答：<input placeholder-style="color:red;font-size:16px;" placeholder="输入回答问题" confirm-type="done" bindconfirm="anwser" value="{{myquestion}}" /><text style="color:red;">{{goodquestion}}</text></view>
     <view class="game_next" bindtap="next">下一题</view>
 </view>
